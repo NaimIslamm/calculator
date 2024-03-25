@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+    .main{
+        margin-left: 190px;
+        margin-top: 100px;
+        
+    }
+        
+        
+    .display{
+        width: 865px;
+        height: 60px;
+        border: 3px solid #70757A;
+        margin: 17px 0;
+        border-radius: 10px;
+        
+       
+    }
+    .main-container{
+        
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        width: 150px;
+        height: 250px;
+        gap: 5px;
+        border-radius: 10px;  
+        
+        
+    }
+    .cell, .cell-white, .cell-equal{
+        background-color: #DADCE0;
+        font-size: 18px;
+        border-radius: 10px;
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .cell-white{
+        background-color: #F1F3F4;
+        
+        align-items: center;
+    }
+    .cell-equal{
+        background-color: #4285F4;
+        color: white;
+        font-weight: 900;
+        font-size: px;
+    }
+
+        </style>
+</head>
+<body>
+    <div class="main">
+        <div class="display">
+        </div>
+        <div class="main-container">
+            <div class="cell">Rad</div>
+            <div class="cell">Deg</div>
+            <div class="cell">x!</div>
+            <div class="cell">(</div>
+            <div class="cell">)</div>
+            <div class="cell">%</div>
+            <div class="cell">CE</div>
+            <div class="cell">inv</div>
+            <div class="cell">sin</div>
+            <div class="cell">in</div>
+            <div class="cell-white">7</div>
+            <div class="cell-white">8</div>
+            <div class="cell-white">9</div>
+            <div class="cell">\</div>
+            <div class="cell">TT</div>
+            <div class="cell">cos</div>
+            <div class="cell">log</div>
+            <div class="cell-white">4</div>
+            <div class="cell-white">5</div>
+            <div class="cell-white">6</div>
+            <div class="cell">*</div>
+            <div class="cell">e</div>
+            <div class="cell">tan</div>
+            <div class="cell">Root</div>
+            <div class="cell-white">1</div>
+            <div class="cell-white">2</div>
+            <div class="cell-white">3</div>
+            <div class="cell">-</div>
+            <div class="cell">Ans</div>
+            <div class="cell">EXP</div>
+            <div class="cell">x^y</div>
+            <div class="cell">0</div>
+            <div class="cell">.</div>
+            <div class="cell-equal">=</div>
+            <div class="cell">+</div>
+        </div>
+    </div>
+    
+</body>
+</html>
